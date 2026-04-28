@@ -1,0 +1,20 @@
+# Datos — no subir CSV al repositorio
+data/*.csv
+data/*.xlsx
+data/*.xls
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+venv/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Sistema
+.DS_Store
+Thumbs.db

@@ -13,7 +13,7 @@
 
 ## Notas de Carga
 
-- **Separador:** punto y coma (`\t`)
+- **Separador:** (`\t`)
 - **Valores perdidos:** celdas vacías y espacios en blanco
 
 

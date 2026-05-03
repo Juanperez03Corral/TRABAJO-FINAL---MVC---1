@@ -1,4 +1,4 @@
-# Datos — Instrucciones de Descarga
+# Datos — Instrucciones de descarga
 
 ## Descarga del Dataset
 

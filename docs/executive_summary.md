@@ -25,7 +25,7 @@
 ### 3. Principales hallazgos
 
 - **La rama de conocimiento es el predictor más potente**: Ingeniería y Salud predicen empleo indefinido con fuerza; en Artes la probabilidad de precariedad se duplica respecto a la media.
-- **La universidad privada se asocia con +8 pp de empleo indefinido y +3,3 pp de emprendimiento** en ramas de sociales, incluso controlando por origen familiar (57,3 % vs 49,2 % en indefinido).
+- **La universidad privada se asocia con +7 pp de empleo indefinido y +3,3 pp de emprendimiento** en ramas de sociales, incluso controlando por origen familiar (57,3 % vs 49,2 % en indefinido).
 - **La movilidad interprovincial es el predictor conductual más accionable** : los estudiantes con movilidad muestran sistemáticamente mayor probabilidad de empleo indefinido.
 - **El capital socioeconómico familiar es un confounder relevante**: la interacción T\_UNIV × RAMA es estadísticamente significativa; parte del efecto aparente del tipo de universidad se explica por el nivel educativo de los padres.
 
@@ -34,7 +34,7 @@
 ### 4. Modelo recomendado
 
 **Random Forest + SMOTE**
-Supera al modelo base en F1-macro sin señales de overfitting significativas. El sobremuestreo SMOTE equilibra la clase minoritaria Autónomo/Empresario sin introducir data leakage. Compatible con SHAP para explicaciones individuales.
+Supera al modelo base en F1-macro sin señales de overfitting significativas. El sobremuestreo SMOTE equilibra la clase minoritaria Autónomo/Empresario sin introducir data leakage.
 
 ---
 
@@ -46,7 +46,7 @@ Supera al modelo base en F1-macro sin señales de overfitting significativas. El
 
 ### 6. Limitaciones
 
-- Los datos son antiguos y el mercado laboral post-COVID cambia constantemente.
+- Los datos son antiguos y el mercado laboral cambia constantemente.
 - El modelo es correlacional: no podemos atribuir causalidad al tipo de universidad sin un diseño cuasiexperimental 
 
 ---
